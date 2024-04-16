@@ -1,0 +1,97 @@
+@import url("satoshi.css");
+
+* {
+    box-sizing: border-box;
+}
+
+root {
+    font-size: 62.5%;
+}
+
+html {
+    background-color: black;
+    font-family: Satoshi-Regular;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(
+        --Black-gradient,
+        linear-gradient(153deg, #000 3.86%, #191919 36.47%, #000 69.96%)
+    );
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+}
+
+a,
+b {
+    font-family: Satoshi-Bold;
+    color: white;
+    font-style: bold;
+}
+
+.logo {
+    border-radius: 500;
+}
+
+.content-layout {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    justify-content: space-around;
+}
+
+.home-body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.made-by {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.maker-names {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+}
+
+.pt {
+    padding-top: 0.5rem;
+}
+
+.privacy-body {
+    padding: 0;
+    margin: 0;
+}
+
+.privacy-body .content-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .content-layout {
+        flex-direction: row;
+        align-items: center;
+    }
+}
