@@ -11,7 +11,6 @@ root {
 html {
   background: black;
   font-family: Satoshi-Regular;
-  height: 100%;
 }
 
 body {
@@ -50,7 +49,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0 1.5rem;
   padding: 2rem 1rem;
 }
 
@@ -82,13 +80,8 @@ b {
 
 .privacy-body {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.privacy-body {
-  height: 100%;
 }
 
 .title-text {
@@ -106,7 +99,6 @@ b {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  /* border: 1px solid red; */
   justify-content: space-around;
 }
 
@@ -139,7 +131,7 @@ b {
 .content-body {
   padding-left: 1rem;
   padding-right: 1rem;
-  flex: 1;
+  height: 100%;
 }
 
 #privacy-policy {
@@ -167,6 +159,10 @@ li {
     align-items: center;
   }
 
+  .privacy-body {
+    height: 100vh;
+  }
+
   .content-body {
     padding-left: 10rem;
     padding-right: 10rem;
@@ -174,5 +170,9 @@ li {
 
   #privacy-policy {
     line-height: 1rem;
+  }
+
+  footer {
+    margin: 0 1.5rem;
   }
 }
