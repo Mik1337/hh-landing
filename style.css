@@ -11,6 +11,7 @@ root {
 html {
   background: black;
   font-family: Satoshi-Regular;
+  height: 100%;
 }
 
 body {
