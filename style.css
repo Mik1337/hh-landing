@@ -135,6 +135,7 @@ b {
 }
 
 ul {
+  list-style-type: none;
   display: flex;
   gap: 1rem;
   padding: 0;
