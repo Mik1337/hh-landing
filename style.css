@@ -107,6 +107,7 @@ b {
 .maker-names {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
   gap: 1rem;
 }
 
